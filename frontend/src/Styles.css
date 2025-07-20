@@ -1,0 +1,164 @@
+/* ==================== */
+/* STYLES GÉNÉRAUX */
+/* ==================== */
+
+/* Style de base pour le corps de la page */
+body {
+  font-family: 'Segoe UI', sans-serif; /* Police moderne */
+  background: linear-gradient(to right, #ffe6f0, #f3e5f5); /* Dégradé rose */
+  margin: 0; /* Pas de marge externe */
+  padding: 20px; /* Espacement intérieur */
+  color: #333; /* Couleur de texte principale */
+}
+
+/* Conteneur principal de l'application */
+.container {
+  max-width: 700px; /* Largeur maximale */
+  margin: auto; /* Centrage horizontal */
+  background: #fff; /* Fond blanc */
+  border-radius: 20px; /* Coins arrondis */
+  padding: 20px; /* Espacement intérieur */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1); /* Ombre portée */
+}
+
+/* Style des titres principaux */
+h1 {
+  text-align: center; /* Centrage du texte */
+  color: #e91e63; /* Rose vif */
+}
+
+/* ==================== */
+/* STYLES DES TÂCHES */
+/* ==================== */
+.task.completed .task-text {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.task-checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+.delete-btn:hover {
+  color: #d91a45;
+}
+.task {
+  margin-bottom: 12px; /* ou 8px si tu veux moins d’espace */
+}
+
+
+/* ==================== */
+/* COMPOSANTS NAVIGATION */
+/* ==================== */
+
+/* Conteneur de navigation */
+.nav {
+  margin-top: 30px; /* Espacement supérieur */
+  text-align: center; /* Centrage du texte */
+}
+
+/* Style des boutons de navigation */
+.nav button {
+  background-color: #ba68c8; /* Fond violet */
+  border: none; /* Pas de bordure */
+  color: white; /* Texte blanc */
+  padding: 10px 20px; /* Espacement intérieur */
+  margin: 5px; /* Espacement externe */
+  font-size: 1em; /* Taille de police */
+  border-radius: 20px; /* Coins très arrondis */
+  cursor: pointer; /* Curseur pointeur */
+}
+
+/* ==================== */
+/* ELEMENTS DIVERS */
+/* ==================== */
+
+/* Style des citations */
+.quote {
+  text-align: center; /* Centrage du texte */
+  font-style: italic; /* Texte en italique */
+  margin-top: 10px; /* Espacement supérieur */
+  color: #6a1b9a; /* Couleur violette */
+}
+
+/* Conteneur des boutons de motivation */
+.motivation {
+  display: flex; /* Disposition flexible */
+  justify-content: center; /* Centrage horizontal */
+  margin-top: 20px; /* Espacement supérieur */
+}
+
+/* Style des boutons de motivation */
+.motivation button {
+  background-color: #f06292; /* Fond rose */
+  border: none; /* Pas de bordure */
+  padding: 10px 25px; /* Espacement intérieur */
+  border-radius: 30px; /* Coins très arrondis */
+  font-size: 1em; /* Taille de police */
+  color: white; /* Texte blanc */
+  cursor: pointer; /* Curseur pointeur */
+  transition: 0.3s ease; /* Animation fluide */
+}
+
+/* Effet au survol des boutons de motivation */
+.motivation button:hover {
+  background-color: #ec407a; /* Rose plus foncé */
+}
+
+/* ==================== */
+/* FORMULAIRES (LOGIN/REGISTER) */
+/* ==================== */
+
+/* Conteneur des formulaires */
+.form-container {
+  max-width: 400px; /* Largeur maximale */
+  margin: 50px auto; /* Centrage vertical et horizontal */
+  background: #fff; /* Fond blanc */
+  border-radius: 20px; /* Coins arrondis */
+  padding: 30px; /* Espacement intérieur */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Ombre portée */
+  text-align: center; /* Centrage du texte */
+}
+
+/* Titre des formulaires */
+.form-container h2 {
+  color: #e91e63; /* Rose vif */
+  margin-bottom: 20px; /* Espacement inférieur */
+}
+
+/* Champs de formulaire */
+.form-container input {
+  width: 100%; /* Pleine largeur */
+  padding: 12px; /* Espacement intérieur */
+  margin: 10px 0; /* Espacement vertical */
+  border: 2px solid #f8bbd0; /* Bordure rose clair */
+  border-radius: 12px; /* Coins arrondis */
+  font-size: 1em; /* Taille de police */
+  background-color: #fce4ec; /* Fond rose très clair */
+  transition: border 0.3s; /* Animation fluide */
+}
+
+/* Style des champs au focus */
+.form-container input:focus {
+  border-color: #ce93d8; /* Bordure violette */
+  outline: none; /* Supprime le contour par défaut */
+}
+
+/* Boutons de formulaire */
+.form-container button {
+  background-color: #f06292; /* Fond rose */
+  color: white; /* Texte blanc */
+  border: none; /* Pas de bordure */
+  padding: 12px 25px; /* Espacement intérieur */
+  border-radius: 30px; /* Coins très arrondis */
+  font-size: 1em; /* Taille de police */
+  cursor: pointer; /* Curseur pointeur */
+  margin-top: 15px; /* Espacement supérieur */
+  transition: background-color 0.3s ease; /* Animation fluide */
+}
+
+/* Effet au survol des boutons */
+.form-container button:hover {
+  background-color: #ec407a; /* Rose plus foncé */
+}
